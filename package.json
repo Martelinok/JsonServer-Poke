@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server":"json-server --watch db.json --port 5000",
-    "start":"json-server --watch db.json --port 5000"
+    "start":"json-server --watch db.json"
 
   },
   "keywords": [],
@@ -13,8 +13,5 @@
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.0"
-  },
-  "engines": {
-    "node": "14.x"
   }
 }
