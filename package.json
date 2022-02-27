@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server":"node server.js",
+    "server":"json-server --watch db.json --port=8080",
     "start":"node server.js"
-
   },
   "keywords": [],
   "author": "",
