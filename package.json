@@ -1,10 +1,10 @@
 {
-  "name": "JasonServer-Poke",
+  "name": "JsonServer-Poke",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server":"json-server --watch db.json --port 8080"
+    "server":"json-server --watch db.json --host 192.168.0.22 --port 8080"
 
   },
   "keywords": [],
